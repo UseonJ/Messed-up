@@ -39,3 +39,37 @@ function recursive(input1, input2, ...) {
 }
 
 
+zoom session 필기
+그림을 그려라
+
+
+2023. 02. 14
+      
+## part 1. daily coding
+
+
+
+## part 2. 재귀 - json.stringfy
+
+[https://www.json.org/json-en.html](https://www.json.org/json-en.html)
+
+
+JSON의 기본 규칙
+JSON은 얼핏 보기에 자바스크립트의 객체와 별반 다를 바가 없어 보이지만, 자바스크립트의 객체와는 미묘하게 다른 규칙이 있습니다.
+
+자바스크립트 객체	JSON
+키	키는 따옴표 없이 쓸 수 있음
+{ key : "property" }	반드시 쌍따옴표를 붙여야 함
+'{"key":"property"}'
+문자열 값	작은따옴표도 사용 가능
+{ "key" : 'property' }	반드시 큰따옴표로 감싸야 함
+'{"key":"property"}'
+키와 값 사이 공백	사용 가능
+{"key" : 'property'}	사용 불가능
+'{"key":"property"}'
+키-값 쌍 사이 공백	사용 가능
+{ "key":'property', num:1 }	사용 불가능
+'{"key":"property","num":1}'
+
+
+
